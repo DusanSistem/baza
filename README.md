@@ -22,3 +22,5 @@ use mysql;
 UPDATE user SET authentication_string=PASSWORD("NEWPASSWORD") WHERE User='root';
 
 Primarni kljuc je jmbg zato sto je jedina unique not null kolona.
+
+Tabele su MyIsam zato sto su brze,a nije nam potreban strani kljuc.
